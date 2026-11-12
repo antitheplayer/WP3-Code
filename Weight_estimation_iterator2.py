@@ -26,12 +26,12 @@ CD0_REF = {
 }
 K_EXCR = 0.97                                          # 3 % excrescence & leakage: C_D0 = subtotal / 0.97
 WFUEL_LANDING = 0.943                                  # Eq. 4.26: W_L = W_TO - 0.943 W_fuel
-FUS_LENGTH, FUS_DEPTH, FUS_WIDTH, FUS_SHELL = 44.92, 3.75, 3.85, 438.0   # m, m, m, m2 (shell = S_f)(PLACEHOLDERS)
+FUS_LENGTH, FUS_DEPTH, FUS_WIDTH, FUS_SHELL = 35.28, 3.75, 3.85, 438.0   # m, m, m, m2 (shell = S_f)(PLACEHOLDERS)
 V_H, V_V = 1.15, 0.086                                   # tail volume coefficients
 L_H, L_V = 21.36, 21.36                                 # tail arms [m](PLACEHOLDERS)
 A_H, A_V = 4, 1.6                                       # tail aspect ratios 
 T_TAIL = False
-GEAR_L_MAIN, GEAR_L_NOSE = 1.9, 1.65                   # strut lengths [m] (PLACEHOLDERS)
+GEAR_L_MAIN, GEAR_L_NOSE = 2.7, 2.7                   # strut lengths [m] (PLACEHOLDERS)
 N_MW, N_MSS, N_NW = 4, 2, 2                            # main wheels, main struts, nose wheels (PLACEHOLDERS)
 V_STALL = 63.0         
 CL_CR = 0.415                                          
